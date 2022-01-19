@@ -72,8 +72,8 @@
         </GridPane>
         <TableView fx:id="tableDepartment" onMouseClicked="#tableDepartmentClicked" prefHeight="200.0" prefWidth="200.0" tableMenuButtonVisible="true" VBox.vgrow="ALWAYS">
             <columns>
-                <TableColumn fx:id="departmentCol1" prefWidth="75.0" text="ID" />
-                <TableColumn fx:id="departmentCol2" prefWidth="75.0" text="Name" />
+                <TableColumn fx:id="departmentCol1" prefWidth="45.0" text="ID" />
+                <TableColumn fx:id="departmentCol2" minWidth="5.0" prefWidth="115.0" text="Name" />
                 <TableColumn fx:id="departmentCol3" prefWidth="75.0" text="Faculty" />
             </columns>
             <columnResizePolicy>

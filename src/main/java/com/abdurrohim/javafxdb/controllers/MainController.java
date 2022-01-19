@@ -243,6 +243,8 @@ public class MainController implements Initializable {
                         faculties.clear();
                         faculties.addAll(facultyDao.fetchAll());
                         resetFacultyAction();
+                        departments.clear();
+                        departments.addAll(departmentDao.fetchAll());
                     }
                 } catch (SQLException | ClassNotFoundException e) {
                     e.printStackTrace();
